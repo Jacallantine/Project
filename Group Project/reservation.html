@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a Reservation</title>
+    <link rel="stylesheet" href="./STYLES/reserve.css">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <div class = 'navBar' id = "navBar">
+
+        <div class = "navBarOptions">
+            <!-- <button type = "button" id = "signIn"   >SIGN IN</button> -->
+            <button onclick = 'homeHTML()' id = "home"     >HOME</button>
+            <button onclick = 'contactHTML()' id = 'contact'  >CONTACT</button>
+            <button onclick = 'reservationHTML()' id = 'foodMenu' >RESERVATION</button>
+            <button onclick = 'adminLoginHTML()' id = 'manager' >MANAGER</button>
+        </div>
+    </div>
+
+<div class = 'main-container'>
+
+    <div class = 'menu-container'>
+    <div class = 'entrees'>
+        <h1>ENTREES</h1>
+        <form>
+            <label>Chicken
+            <input type="number"  id="chicken" >
+            </label>
+            <label>Steak
+            <input type="number"  id="steak" >
+            </label>
+            <label>Pork
+            <input type="number"  id="pork" >
+            </label>
+
+        </form>
+    </div>
+
+
+    <div class = 'sides'>
+        <h1>SIDES</h1>
+        <form>
+            <label>Mac n Cheese
+                <input type="number"  id="mac">
+            </label>
+
+            <label>Okra
+            <input type="number"  id="okra" >
+            </label>
+
+            <label>Baked Potatoes
+            <input type="number"  id="bakedPotatoes">
+            </label>
+            </label>
+        </form>
+    </div>
+
+
+    <div class = 'deserts'>
+        <h1>DESERTS</h1>
+        <form>
+            <label>Ice Cream
+                <input type="number"  id="icecream" >
+            </label>
+
+            <label>Cake
+            <input type="number"  id="cake" >
+            </label>
+
+            <label>Fruit
+            <input type="number"  id="fruit" >
+            </label>
+
+        </form>
+    </div>
+
+
+    
+    </div>
+    <div class="cateringOptions-container">
+        <h1 id = 'cateringOptions'>Catering Menu</h1>
+
+        <button onclick= "showBreakfastOptions()" id = 'Breakfast'>Breakfast</button>
+        <div class="breakfastOptions" id = 'breakfastOptions'>
+            <div class = 'buttonOffset'>
+            <button onclick="button" id = 'boxedBreakfast'>Boxed Breakfast</button>
+            <button onclick="button" id = 'bakery'>Bakery</button>
+            <button onclick="button" id = 'fruits'>Fruits</button>
+            </div>
+        </div>
+
+        <button onclick="showSandwichOptions()" id = 'Sandwiches'>Sandwiches</button>
+        <div class = 'sandwichOptions' id = 'sandwichOptions'>
+            <div class="buttonOffset">
+            <button onclick="button" id = 'coldSandwhich'>Cold Sandwhiches</button>
+            <button onclick="button" id = 'hotSandwhich'>Hot Sandwhiches</button>
+            <button onclick="button" id = 'assortment'>Assorted Sandwhiches</button>
+            </div>
+        </div>
+        <button onclick="showSaladOptions()" id = 'salads'>Salads</button>
+            <div class = 'saladOptions' id = 'saladOptions'>
+                <div class="buttonOffset">
+            <button onclick="displayRanchSalad()" id = 'ranchSalad'>Ranch Salad</button>
+            <button onclick="button" id = 'Breakfast'>Breakfast</button>
+            <button onclick="button" id = 'Breakfast'>Breakfast</button>
+            </div>
+            </div>
+
+        <button onclick="showBoxedLunches()" id = 'boxedLunches'>Boxed Lunches</button>
+        <div class = 'boxedLunchesOptions' id = 'boxedLunchesOptions'>
+            <div class="buttonOffset">
+            <button onclick="button" id = 'Breakfast'>Breakfast</button>
+            <button onclick="button" id = 'Breakfast'>Breakfast</button>
+            <button onclick="button" id = 'Breakfast'>Breakfast</button>
+        </div>
+        </div>
+
+        <button onclick="showSoupOptions()" id = 'soups'>Soups</button>
+        <div class = 'soupOptions' id = 'soupOptions'>
+            <div class="buttonOffset">
+            <button onclick="button" id = 'Breakfast'>Breakfast</button>
+            <button onclick="button" id = 'Breakfast'>Breakfast</button>
+            <button onclick="button" id = 'Breakfast'>Breakfast</button>
+            </div>
+        </div>
+
+        <button onclick="button" id = "veg">Vegetarian</button>
+        <button onclick="button" id = "beverages">Beverages</button>
+
+
+
+    </div>
+
+    <div class = 'cost-container'>
+
+        <h1 id = totalCost>TOTAL PRICE</h1>
+        
+        
+
+            <div class = 'cost-container-row'>
+            <label for="entrees">ENTREES</label>
+            <input type="number" id = 'entrees'>
+            </div>
+
+            <div class = 'cost-container-row'>
+                <label for="sides">SIDES</label>
+                <input type="number" id = 'sides'>
+    
+            </div>
+
+            <div class = 'cost-container-row'>
+                <label for="deserts">DESERTS</label>
+                <input type="number" id = 'deserts'>
+    
+            </div>
+            <div class='cost-container-row'>
+                <label for="beverages">DRINKS</label>
+                <input type="number" id = 'beverages'>
+            </div>
+
+    </div>
+
+    <div class = 'calendar'>
+
+
+    </div>
+    
+
+    </div>
+
+    <script src="./SCRIPTS/reserve.js"></script>
+    <script src="./SCRIPTS/main.js"></script>
+</body>
+</html>

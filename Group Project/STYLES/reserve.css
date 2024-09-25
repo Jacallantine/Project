@@ -1,0 +1,151 @@
+body{
+    margin-top: 40px;
+    font-family:sans-serif;
+}
+
+h1{
+    letter-spacing: 0.1em;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 8vh;
+    height: 60px;
+    border-bottom: 2px solid black;
+}
+
+h2{
+    letter-spacing: 0.1em;
+    font-size: 15px;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+h3{
+    letter-spacing: 0.1em;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+#cateringOptions{
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    margin:20px auto 30px auto;
+    height: 30px;
+
+}
+.cateringOptions-container{
+    margin-top: 45px;
+display: flex;
+position: fixed;
+justify-content: left;
+align-items: left;
+flex-direction: column;
+background-color: rgb(159, 210, 255);
+height: 140vh;
+width: 20vw;
+top: 0;
+left: 0;
+}
+.cateringOptions-container button{
+    width: 200px;
+    font-size: 20px;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    margin: 10px 0 0 25px ;
+
+}
+.buttonOffset{
+    transition:0.7s;
+    display: flex;
+    flex-direction: column;
+    margin:5px 0 20px 15px;
+    
+}
+.buttonOffset button{
+    transition:0.7s;
+    font-size: 17px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+/* .main-container
+{  
+} */
+
+
+.menu-container {
+    margin-top:30px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.entrees, .sides, .deserts {
+    width: 100%; 
+    max-width: 300px; 
+    margin-bottom: 20px; 
+}
+
+
+.entrees form label, .sides form label, .deserts form label {
+    display: flex;
+    justify-content: space-between; 
+    width: 80%;
+    margin-bottom: 5px; 
+    align-items: center;
+    font-size: 18px;
+}
+
+
+.entrees form input, .sides form input, .deserts form input {
+    width: 65px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+#totalCost{
+    letter-spacing: 0.1em;
+    font-size: 30px;
+    margin:20px auto 30px auto;
+    height: 30px;
+}
+.cost-container{
+    margin-top:45px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 140vh;
+    background-color:rgb(159, 210, 255);
+    align-items: center;
+}
+
+/* .cost-container-row label{
+width:10rem;
+} */
+
+.cost-container-row{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:20px;
+}
+.cost-container-row label{
+width: 100px;
+line-height: 10px;
+
+}
+
+.cost-container-row input{
+    border:none;
+    line-height: 20px;
+    width: 60px;
+    
+}
+

@@ -2,21 +2,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TTC</title>
     <link rel="stylesheet" href="STYLES/main.css">
 </head>
 <body>
-    <div class = 'menu' id = "menu">
-        <h1 id ='ttc'>TITLE TOWN CATERING</h1>
+    <div class ='menu' id = "menu">
+        <!-- <h1 id ='ttc'>TITLE TOWN CATERING</h1> -->
+        <h1 id = 'slogan'>
+            First Taste- <br>
+            Expertly Crafted.<br> 
+            Customer Inspired.<br>
+        </h1>
+        <h3 id = 'slogan2'>Our passion is your event’s flavor. Let us make your occasion unforgettable with cuisine that delights every guest.</h3>
+    </div>
+    <div class = 'reserationOptions-container'>
+        
+        <div id = 'wedding'>
+            <h1>WEDDING CATERING</h1>
+
+        </div>
+        <div class = 'wedding'>
+
+        </div>
 
     </div>
+
 
     <!-- <div class = 'advertise'>
         <h1>Need Help?</h1>
         <button type = 'button' id = 'contactButton'>EMAIL EXPERT</button>
 
     </div> -->
-<!-- <div class = 'container-cateringOptions' id = 'container-cateringOptions'> -->
+<!-- <div class = 'container-cateringOptions' id = 'container-cateringOptions'>
     <h1 id="cateringOptions">CATERING OPTIONS</h1>
     <div class = 'catering' id = 'catering'>
         <div class = 'cateringOptions'>
@@ -28,11 +45,11 @@
             <div class = 'custom'></div>
 
         </div>
-    </div>
+    </div> -->
 <!-- </div> -->
    
 <!-- <div class = 'container-aboutUs' id = 'container-aboutUs'> -->
-        <h1 id = 'aboutUs'>ABOUT US</h1>
+        <!-- <h1 id = 'aboutUs'>ABOUT US</h1>
         
         <div class = 'container-aboutUs' id = 'container-aboutUs'>
         <div class = 'ORIGINS'>
@@ -41,7 +58,7 @@
         <div class = 'GOAL'>
             <p>tesasd sd  dsaf sad sd fsadf sdf t</p>
         </div>
-    </div>
+    </div> -->
 <!-- </div> -->
  
     
@@ -49,56 +66,27 @@
 <div class = 'navBar' id = "navBar">
 
     <div class = "navBarOptions">
-        <button type = "button" id = "signIn"   >SIGN IN</button>
+        <!-- <button type = "button" id = "signIn"   >SIGN IN</button> -->
         <button type = "button" id = "home"     >HOME</button>
-        <button type = 'button' id = 'foodMenu' >MENU</button>
-        <button type = 'button' id = 'drinks'   >DRINKS</button>
-        <button type = 'button' id = 'location' >LOCATION</button>
-        <button type = 'button' id = 'contact'  >CONTACT</button>
+        <button onclick = 'contactHTML()' id = 'contact'  >CONTACT</button>
+        <button onclick = 'reservationHTML()' id = 'foodMenu' >RESERVATION</button>
+        <button onclick = 'adminLoginHTML()' id = 'manager' >MANAGER</button>
     </div>
 </div>
 
-<div class = 'contactMenu' id ="contactMenu">
-    <div class = 'contactInfo'>
-        <h2>CONTACT INFORMATION</h2>
-    </div>
-
-    <div class = 'contactInfo'>
-        <label for="fName">Name:</label>
-        <input type="text" id = 'fName'>
-    </div>
-
-    <div class = 'contactInfo'>  
-        <label for="lName">Last Name:</label>
-        <input type="text" id = "lName">
-    </div>
-
-    <div class = 'contactInfo'>
-        <label for = 'email'>Enter email:</label>        
-        <input type="text" id = 'email'>
-    </div>
-
-
-    <div class = 'contactInfo'>
-        <label for="pNumber">Phone number:</label>
-        <input type="text" id = 'pNumber'>
-    </div>
-    <div class = 'contactInfo'>
-        <label for="description" id = "descriptionForEmail">Description:</label>
-        <input type="text" id = 'description'>
-    </div>
-
-    <div class = 'contactButtons'>
-        <button type = "button" id = 'send'>SEND</button>
-
-    </div>
-
-</div>
 
 
 
 
 
+
+
+
+
+
+
+
+    
 
 
 
@@ -106,7 +94,7 @@
 
 </div>
 
-<script src="main.js"></script>
-<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="./SCRIPTS/main.js"></script>
+<script src="./SCRIPTS/admin.js"></script>
 </body>
 </html>

@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+}
+.reports-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 75vh;
+    background-color: rgb(255, 255, 255);
+}
+.reports-container-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin:20px 0 0 0;
+}
+
+label{
+    width:200px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+input{
+    height: 20px;
+    opacity: 0.7;
+    text-align: center;
+
+}
+
+.reservations-container{
+    width: 100%;
+    height: 75vh;
+    background-color: black;
+}

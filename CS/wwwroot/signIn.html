@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN IN</title>
+
+    <link rel="stylesheet" href="../CSS/signIn.css">
+    <link rel="stylesheet" href="../CSS/main.css">
+</head>
+<body>
+    <div class = 'navBar' id = "navBar">
+
+        <div class = "navBarOptions">
+            <button onclick = "signInHTML()" id = "signIn"   >SIGN IN</button>
+            <button onclick = 'homeHTML()' id = "home"     >HOME</button>
+            <button onclick = 'contactHTML()' id = 'contact'  >CONTACT</button>
+            <button onclick = 'reservationHTML()' id = 'foodMenu' >RESERVATION</button>
+            <button onclick = 'adminLoginHTML()' id = 'manager' >MANAGER</button>
+        </div>
+    </div>
+
+
+
+
+
+
+            <div class = 'signIn-container'>
+                <form id = 'signInForm'>
+            
+                    <div class = 'signIn-container-row'>
+                    <h3 id = 'customerSignIn'>CUSTOMER SIGN IN</h3>
+                    </div>
+            
+                    <div class = 'signIn-container-row'>
+                    <label for="userName">USERNAME</label>
+                    <input type="text" id = 'userName' required>
+                    </div>
+            
+                    <div class = 'signIn-container-row'>
+                    <label for = 'password'>PASSWORD</label>
+                    <input type="password" id = 'password' required>
+                    </div>
+            
+                    <div class="signIn-container-row">
+                        <button type="submit" id = 'customerSend' class = 'send'>Sign In</button>
+                    </div>
+            
+            
+                </form>
+                        
+                    </div>
+        
+
+    <script src="../JS/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\CSS\\admin.css",
+      "PackagePath": "staticwebassets\\CSS\\admin.css"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\CSS\\adminLogin.css",
+      "PackagePath": "staticwebassets\\CSS\\adminLogin.css"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\CSS\\contact.css",
+      "PackagePath": "staticwebassets\\CSS\\contact.css"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\CSS\\createAccount.css",
+      "PackagePath": "staticwebassets\\CSS\\createAccount.css"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\CSS\\main.css",
+      "PackagePath": "staticwebassets\\CSS\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\CSS\\reserve.css",
+      "PackagePath": "staticwebassets\\CSS\\reserve.css"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\CSS\\signIn.css",
+      "PackagePath": "staticwebassets\\CSS\\signIn.css"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\JS\\admin.js",
+      "PackagePath": "staticwebassets\\JS\\admin.js"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\JS\\adminLogin.js",
+      "PackagePath": "staticwebassets\\JS\\adminLogin.js"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\JS\\contact.js",
+      "PackagePath": "staticwebassets\\JS\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\JS\\createAccount.js",
+      "PackagePath": "staticwebassets\\JS\\createAccount.js"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\JS\\main.js",
+      "PackagePath": "staticwebassets\\JS\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\JS\\reserve.js",
+      "PackagePath": "staticwebassets\\JS\\reserve.js"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\JS\\signIn.js",
+      "PackagePath": "staticwebassets\\JS\\signIn.js"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\PHOTO\\GV8vMbQWIAANPIN.jpg",
+      "PackagePath": "staticwebassets\\PHOTO\\GV8vMbQWIAANPIN.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\PHOTO\\TTClogo.jpg",
+      "PackagePath": "staticwebassets\\PHOTO\\TTClogo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\PHOTO\\background-invert.jpg",
+      "PackagePath": "staticwebassets\\PHOTO\\background-invert.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\PHOTO\\background.jpg",
+      "PackagePath": "staticwebassets\\PHOTO\\background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\PHOTO\\catering.jpg",
+      "PackagePath": "staticwebassets\\PHOTO\\catering.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\PHOTO\\catering2.jpeg",
+      "PackagePath": "staticwebassets\\PHOTO\\catering2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\PHOTO\\catering3.jpg",
+      "PackagePath": "staticwebassets\\PHOTO\\catering3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\admin.html",
+      "PackagePath": "staticwebassets\\admin.html"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\adminLogin.html",
+      "PackagePath": "staticwebassets\\adminLogin.html"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\contact.html",
+      "PackagePath": "staticwebassets\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\createAccount.html",
+      "PackagePath": "staticwebassets\\createAccount.html"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\reservation.html",
+      "PackagePath": "staticwebassets\\reservation.html"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\321\\Group Project\\cs\\wwwroot\\signIn.html",
+      "PackagePath": "staticwebassets\\signIn.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.cs.props",
+      "PackagePath": "build\\cs.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.cs.props",
+      "PackagePath": "buildMultiTargeting\\cs.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.cs.props",
+      "PackagePath": "buildTransitive\\cs.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.cs.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

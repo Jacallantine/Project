@@ -1,0 +1,55 @@
+.signIn-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#signInForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    color: white;
+    background-image: url(../PHOTO/background-invert.jpg);
+    background-size:cover;
+    border: 4px solid rgb(88, 141, 255);
+    width: 40vw;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signIn-container-row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+
+.signIn-container-row label{
+    color:black;
+    background-color: transparent;
+    text-align: center;
+    margin-right: 1rem;
+    margin-top:0.2rem;
+
+    
+}
+
+.signIn-container-row input{
+    width: 10rem;
+    height: 1.5rem;
+    border: 1px solid black;
+    border-radius: 4px;
+
+}
+
+#customerSignIn{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    padding: 10px 25px;
+    border: 2px solid rgb(0, 0, 0) ;
+}

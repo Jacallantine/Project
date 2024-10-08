@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/adminLogin.css">
+    <link rel="stylesheet" href="CSS/admin.css">
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+    <div class = 'navBar' id = "navBar">
+
+        <div class = "navBarOptions">
+            <button onclick = "signInHTML()" id = "signIn"   >SIGN IN</button>
+            <button onclick = 'homeHTML()' id = "home"     >HOME</button>
+            <button onclick = 'contactHTML()' id = 'contact'  style="display: none;">CONTACT</button>
+            <button onclick = 'reservationHTML()' id = 'foodMenu' style="display: none;">RESERVATION</button>
+            <button onclick = 'adminLoginHTML()' id = 'manager' >MANAGER</button>
+            <button onclick = 'menuHTML()' style="display: none;">MENU</button>
+        </div>
+    </div>
+
+
+    <div class = 'manager-container'>
+    <form id = 'managerPage'>
+
+        <div class = 'managerPage-rows'>
+        <h3 id = 'managerLogIn'>MANAGER LOGIN</h3>
+        </div>
+
+        <div class = 'managerPage-rows'>
+        <label for="userName">USERNAME</label>
+        <input type="text" id = 'userName' required>
+        </div>
+
+        <div class = 'managerPage-rows'>
+        <label for = 'password'>PASSWORD</label>
+        <input type="password" id = 'password' required>
+        </div>
+
+        <div class="managerPage-rows">
+            <button type="submit" id = 'send' class = 'send'>Sign In</button>
+        </div>
+
+
+    </form>
+            
+        </div>
+
+
+
+
+
+    <!-- <script src="./SCRIPTS/adminLogin.js"></script> -->
+    <script src="JS/adminLogin.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>

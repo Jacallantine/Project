@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN</title>
+    <link rel="stylesheet" href="CSS/admin.css">
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+    <div class = 'navBar' id = "navBar"></div>
+
+        <div class = "navBarOptions">
+            <button onclick = "signInHTML()" id = "signIn"   >SIGN IN</button>
+            <button onclick = 'homeHTML()' id = "home"     >HOME</button>
+            <button onclick = 'contactHTML()' id = 'contact'  >CONTACT</button>
+            <button onclick = 'reservationHTML()' id = 'foodMenu' >RESERVATION</button>
+            <button onclick = 'adminLoginHTML()' id = 'manager' >MANAGER</button>
+            <button onclick = 'menuHTML()'>MENU</button>
+        </div>
+    </div>
+    <div class = 'reports-container'>
+        <h1>REPORTS</h1>
+
+            <div class = 'reports-container-row'>
+            <label for="totalRev">TOTAL REVENUE</label>
+            <input type="number" id="totalRev" readonly>
+            </div>
+
+            <div class = 'reports-container-row'>
+            <label for="grossIncome"> GROSS INCOME</label>
+            <input type="number" id = 'grossIncome' readonly>
+            </div>
+            
+            <div class = 'reports-container-row'>
+            <label for="chickenSold">CHICKEN</label>
+            <input type="number" id="chickenSold" readonly>
+            </div>
+
+            <div class = 'reports-container-row'>
+            <label for="steakSold">STEAK</label>
+            <input type="number" id = 'steakSold' readonly>
+            </div>
+
+            <div class = 'reports-container-row'>
+            <label for="porkSold">PORK</label>
+            <input type="number" id = 'porkSold' readonly>
+            </div>
+
+    </div>
+
+    <div class = 'reservations-container'>
+        <div class = 'reservationList'>
+
+        </div>
+        <div class = 'reservationDetails'>
+
+        </div>
+    </div>
+
+
+    <script src="JS/admin.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>

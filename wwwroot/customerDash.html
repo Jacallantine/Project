@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASH BOARD</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/customerDash.css">
+</head>
+<body>
+    
+<div class = 'navBar' id = "navBar">
+
+    <div class = "navBarOptions">
+        <button onclick = "signInHTML()" id = "signIn"   >SIGN IN</button>
+        <button onclick = "homeHTML()" id = "home"     >HOME</button>
+        <button onclick = 'contactHTML()' id = 'contact'  >CONTACT</button>
+        <button onclick = 'calendarHTML()' id = 'foodMenu' >RESERVATION</button>
+        <button onclick = 'adminLoginHTML()' id = 'manager' style="display: none;">MANAGER</button>
+        <button onclick = 'menuHTML()'>MENU</button>
+    </div>
+</div>
+
+
+<div class = 'reservation-container'>
+<h2>Your Reservations</h2>
+<div class = 'customer-reservation' id = 'customer-reservation'>
+
+
+</div>
+
+</div>
+    
+<script src="JS/customerDash.js"></script>
+<script src="JS/main.js"></script>
+</body>
+</html>

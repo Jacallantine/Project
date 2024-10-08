@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN IN</title>
+
+    <link rel="stylesheet" href="CSS/signIn.css">
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+    <div class = 'navBar' id = "navBar">
+
+        <div class = "navBarOptions">
+            <button onclick = "signInHTML()" id = "signIn"   >SIGN IN</button>
+            <button onclick = 'homeHTML()' id = "home"     >HOME</button>
+            <button onclick = 'contactHTML()' id = 'contact'  >CONTACT</button>
+            <button onclick = 'reservationHTML()' id = 'foodMenu' style="display: none;">RESERVATION</button>
+            <button onclick = 'adminLoginHTML()' id = 'manager' style="display: none;">MANAGER</button>
+            <button onclick = 'menuHTML()'>MENU</button>
+        </div>
+    </div>
+
+
+
+
+
+
+            <div class = 'signIn-container'>
+                <form id = 'signInForm'>
+            
+                    
+                    <h3 id = 'customerSignIn'>CUSTOMER SIGN IN</h3>
+                   
+            
+                   
+                    <label for="userName">USERNAME</label>
+                    <input type="text" id = 'userName' required>
+                    
+            
+                   
+                    <label for = 'password'>PASSWORD</label>
+                    <input type="password" id = 'password' required>
+                    
+            
+                   
+                        <button onclick="customerDash()" id = 'customerSend' class = 'send'>Sign In</button>
+                
+
+                  
+                        <button onclick= 'createAccountHTML()' id = 'createAccount' class = 'send'>Create Account</button>
+                   
+            
+            
+                </form>
+                        
+                    </div>
+        
+    <script src="JS/signIn.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>

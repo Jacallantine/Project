@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/practice.css">
+</head>
+<body>
+    <div class = 'calendar-container'>
+        <div class="calendar-header">
+            <button id="prevMonth">◀</button>
+            <span id="monthYear"></span>
+            <button id="nextMonth">▶</button>
+        </div>
+        <div class="calendar-days">
+            <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+        </div>
+        <div class="calendar-dates" id="calendarDates"></div>
+    </div>
+
+    <div class="time-slots" id="timeSlots">
+        <h2>Available Time Slots (8 AM - 6 PM)</h2>
+        <div id="slotContainer"></div>
+        <button id="reserveBtn">Reserve Time</button>
+    </div>
+
+    <script src="./JS/calendar.js"></script>
+</body>
+</html>

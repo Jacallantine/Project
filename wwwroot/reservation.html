@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a Reservation</title>
+    <link rel="stylesheet" href="CSS/practice.css">
+    <link rel="stylesheet" href="CSS/reserve.css">
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+    <div class = 'navBar' id = "navBar">
+
+        <div class = "navBarOptions">
+            <button onclick = "signInHTML()" id = "signIn"   >SIGN IN</button>
+            <button onclick = 'homeHTML()' id = "home"     >HOME</button>
+            <button onclick = 'contactHTML()' id = 'contact'  >CONTACT</button>
+            <button onclick = 'reservationHTML()' id = 'foodMenu' >RESERVATION</button>
+            <button onclick = 'adminLoginHTML()' id = 'manager' style="display: none;">MANAGER</button>
+            <button onclick = 'menuHTML()'>MENU</button>
+        </div>
+    </div>
+
+<div class = 'main-container' id = 'main-container'>
+
+    <!-- Breakfast entree -->
+    <div class='menuItem-container' id='breakFast-entree'>
+        <!-- BACON EGG N CHEESE -->
+        <h1 class='menuItem-categories'>BISCUITS</h1>
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="PHOTO/MENU/BENC.jpg" alt="Bacon Egg N Cheese">
+                <div class='menuItem-container-row'>
+                    <label for="BENC">BACON EGG N CHEESE</label>
+                    <input type="number" id="BENC">
+                </div>
+            </div>
+        </div>
+    
+        <!-- SAUSAGE EGG N CHEESE -->
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="./PHOTO/SENC.JPEG" alt="Sausage Egg N Cheese">
+                <div class='menuItem-container-row'>
+                    <label for="SENC">SAUSAGE EGG N CHEESE</label>
+                    <input type="number" id="SENC" placeholder="$20">
+                    <p>Feeds 12 People</p>
+                </div>
+            </div>
+        </div>
+
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="PHOTO/MENU/ENC.png" alt="EGG N CHEESE">
+                <div class='menuItem-container-row'>
+                    <label for="ENC">EGG N CHEESE</label>
+                    <input type="number" id="ENC">
+                </div>
+            </div>
+        </div>
+    
+        <!-- BREAKFAST BURRITO'S H1 -->
+        <h1 class='menuItem-categories'>BREAKFAST BURRITO'S</h1>
+    
+        <!-- SAUSAGE EGG N CHEESE BURRITO -->
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="PHOTO/MENU/SENGBF.jpg" alt="Sausage Egg N Cheese Burrito">
+                <div class='menuItem-container-row'>
+                    <label for="SENB">SAUSAGE EGG N CHEESE</label>
+                    <input type="number" id="SENB">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Bakery -->
+    <div class='menuItem-container' id='breakFast-bakery'>
+        <!-- BACON EGG N CHEESE -->
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="PHOTO/MENU/BENC.jpg" alt="apple pie">
+                <div class='menuItem-container-row'>
+                    <label for="applePie">APPLE PIE</label>
+                    <input type="number" id="applePie">
+                </div>
+            </div>
+        </div>
+    
+        <!-- SAUSAGE EGG N CHEESE -->
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="PHOTO/MENU/SENC.jpg" alt="Croissants">
+                <div class='menuItem-container-row'>
+                    <label for="croissant">CROISSANTS</label>
+                    <input type="number" id="croissant">
+                </div>
+            </div>
+        </div>
+
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="PHOTO/MENU/ENC.png" alt="Cinnamon Rolls">
+                <div class='menuItem-container-row'>
+                    <label for="cinnamonRolls">EGG N CHEESE</label>
+                    <input type="number" id="cinnamonRolls">
+                </div>
+            </div>
+        </div>
+    
+        <!-- BREAKFAST BURRITO'S H1 -->
+        <h1 class='menuItem-categories'>BREAKFAST BURRITO'S</h1>
+    
+        <!-- SAUSAGE EGG N CHEESE BURRITO -->
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="PHOTO/MENU/SENGBF.jpg" alt="Sausage Egg N Cheese Burrito">
+                <div class='menuItem-container-row'>
+                    <label for="SENB">SAUSAGE EGG N CHEESE</label>
+                    <input type="number" id="SENB">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Fruits -->
+    <div class='menuItem-container' id='breakFast-fruit'>
+        <!-- BACON EGG N CHEESE -->
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="PHOTO/MENU/BENC.jpg" alt="APPLE">
+                <div class='menuItem-container-row'>
+                    <label for="apple">APPLE</label>
+                    <input type="number" id="apple">
+                </div>
+            </div>
+        </div>
+    
+        <!-- SAUSAGE EGG N CHEESE -->
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="PHOTO/MENU/SENC.jpg" alt="banana">
+                <div class='menuItem-container-row'>
+                    <label for="banana">BANANA</label>
+                    <input type="number" id="banana">
+                </div>
+            </div>
+        </div>
+
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="PHOTO/MENU/ENC.png" alt="orange">
+                <div class='menuItem-container-row'>
+                    <label for="orange">ORANGE</label>
+                    <input type="number" id="orange">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Sandwiches -->
+
+    <!-- Cold Sandwiches -->
+    <div class='menuItem-container' id='sandwiches-cold'>
+        <!-- BACON EGG N CHEESE -->
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="PHOTO/MENU/BENC.jpg" alt="HAM AND CHEESE">
+                <div class='menuItem-container-row'>
+                    <label for="HNC">HAM N CHEESE</label>
+                    <input type="number" id="HNC">
+                </div>
+            </div>
+        </div>
+    
+        <!-- SAUSAGE EGG N CHEESE -->
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="PHOTO/MENU/SENC.jpg" alt="TURKEY AND CHEESE">
+                <div class='menuItem-container-row'>
+                    <label for="TNC">TURKEY N CHEESE</label>
+                    <input type="number" id="TNC">
+                </div>
+            </div>
+        </div>
+
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="PHOTO/MENU/ENC.png" alt="BOLOGNA AND CHEESE">
+                <div class='menuItem-container-row'>
+                    <label for="BNC">BOLOGNA N CHEESE</label>
+                    <input type="number" id="BNC">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hot sandwiches -->
+    <div class='menuItem-container' id='sandwiches-hot'>
+        <!-- BACON EGG N CHEESE -->
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="PHOTO/MENU/BENC.jpg" alt="GRILLED CHEESE">
+                <div class='menuItem-container-row'>
+                    <label for="GC">GRILLED CHEESE</label>
+                    <input type="number" id="GC">
+                </div>
+            </div>
+        </div>
+    
+        <!-- SAUSAGE EGG N CHEESE -->
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="./PHOTO/MENU/SENC.jpg" alt="TURKEY AND CHEESE">
+                <div class='menuItem-container-row'>
+                    <label for="PCS">PHILLY CHEESE STEAK</label>
+                    <input type="number" id="PCS">
+                </div>
+            </div>
+        </div>
+
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="./PHOTO/MENU/ENC.png" alt="BOLOGNA AND CHEESE">
+                <div class='menuItem-container-row'>
+                    <label for="CS">CHICKEN SANDWICH</label>
+                    <input type="number" id="CS">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TEA -->
+    <div class='menuItem-container' id='drinks-tea'>
+        <!-- BACON EGG N CHEESE -->
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="PHOTO/MENU/BENC.jpg" alt="GRILLED CHEESE">
+                <div class='menuItem-container-row'>
+                    <label for="sweetTea">SWEET TEA</label>
+                    <input type="number" id="sweetTea">
+                </div>
+            </div>
+        </div>
+    
+        <!-- SAUSAGE EGG N CHEESE -->
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="PHOTO/MENU/SENC.jpg" alt="TURKEY AND CHEESE">
+                <div class='menuItem-container-row'>
+                    <label for="unsweetTea">UNSWEET TEA</label>
+                    <input type="number" id="unsweetTea">
+                </div>
+            </div>
+        </div>
+
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="PHOTO/MENU/ENC.png" alt="BOLOGNA AND CHEESE">
+                <div class='menuItem-container-row'>
+                    <label for="greenTea">GREEN TEA</label>
+                    <input type="number" id="greenTea">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- COFFEE -->
+    <div class='menuItem-container' id='drinks-coffee'>
+        <!-- BACON EGG N CHEESE -->
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="PHOTO/MENU/BENC.jpg" alt="GRILLED CHEESE">
+                <div class='menuItem-container-row'>
+                    <label for="blackCoffee">BLACK COFFEE</label>
+                    <input type="number" id="blackCoffee">
+                </div>
+            </div>
+        </div>
+    
+        <!-- SAUSAGE EGG N CHEESE -->
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="PHOTO/MENU/SENC.jpg" alt="TURKEY AND CHEESE">
+                <div class='menuItem-container-row'>
+                    <label for="latte">LATTE</label>
+                    <input type="number" id="latte">
+                </div>
+            </div>
+        </div>
+
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="PHOTO/MENU/ENC.png" alt="BOLOGNA AND CHEESE">
+                <div class='menuItem-container-row'>
+                    <label for="cappuccino">CAPPUCCINO</label>
+                    <input type="number" id="cappuccino">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SODA -->
+    <div class='menuItem-container' id='drinks-soda'>
+        <!-- BACON EGG N CHEESE -->
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="./PHOTO/MENU/BENC.jpg" alt="GRILLED CHEESE">
+                <div class='menuItem-container-row'>
+                    <label for="drPepper">DR PEPPER</label>
+                    <input type="number" id="drPepper">
+                </div>
+            </div>
+        </div>
+    
+        <!-- SAUSAGE EGG N CHEESE -->
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="./PHOTO/MENU/SENC.jpg" alt="TURKEY AND CHEESE">
+                <div class='menuItem-container-row'>
+                    <label for="coke">COKE</label>
+                    <input type="number" id="coke">
+                </div>
+            </div>
+        </div>
+
+        <div class='menuItem-Background'>
+            <div class='boxedBreakfast-wrapper'>
+                <img src="./PHOTO/MENU/ENC.png" alt="BOLOGNA AND CHEESE">
+                <div class='menuItem-container-row'>
+                    <label for="mDew">MOUNTAIN DEW</label>
+                    <input type="number" id="mDew">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="cateringOptions-container">
+        <h1 id = 'cateringOptions'>Catering Menu</h1>
+        <div class = 'cateringOptions-button-container'>
+
+        <button onclick= "showBreakfastOptions()" class = 'buttonDeco'id = 'Breakfast'>Breakfast</button>
+        <div class="breakfastOptions" id = 'breakfastOptions'>
+            <div class = 'buttonOffset'>
+            <button onclick="showBiscuits()" id = 'entree'>Entree</button>
+            <button onclick="showBakery()" id = 'bakery'>Bakery</button>
+            <button onclick="showFruit()" id = 'fruit'>Fruits</button>
+            </div>
+        </div>
+
+        <button onclick="showSandwichOptions()" class = 'buttonDeco'id = 'Sandwiches'>Lunch</button>
+        <div class = 'sandwichOptions' id = 'sandwichOptions'>
+            <div class="buttonOffset">
+            <button onclick="showColdSandwiches()" id = 'coldSandwhich'>Cold Sandwhiches</button>
+            <button onclick="showHotSandwiches()" id = 'hotSandwhich'>Hot Sandwhiches</button>
+            <button onclick="button" id = 'assortment'>Assorted Sandwhiches</button>
+            </div>
+        </div>
+        <button onclick="showSaladOptions()" class = 'buttonDeco'id = 'salads'>Salads</button>
+            <div class = 'saladOptions' id = 'saladOptions'>
+                <div class="buttonOffset">
+            <button onclick="displayRanchSalad()" id = 'ranchSalad'>Ranch Salad</button>
+            <button onclick="button" id = 'Breakfast'>Breakfast</button>
+            <button onclick="button" id = 'Breakfast'>Breakfast</button>
+            </div>
+            </div>
+
+        </div>
+        <button onclick="showDrinkOptions()"class = 'buttonDeco' id = 'drinks'>Drinks</button>
+            <div class = 'drinkOptions' id = 'drinkOption'>
+            <div class="buttonOffset">
+            <button onclick="showTea()" id = 'tea'>Tea</button>
+            <button onclick="showCoffee()" id = 'coffee'>Coffee</button>
+            <button onclick="showSoda()" id = 'soda'>Soda</button>
+            </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <div class = 'cost-container'>
+
+        <h1 id = totalCost>TOTAL PRICE</h1>
+        
+        
+
+            <div class = 'cost-container-row'>
+            <label for="entrees">ENTREES</label>
+            <input type="number" id = 'entrees' readonly>
+            </div>
+
+            <div class = 'cost-container-row'>
+                <label for="sides">SIDES</label>
+                <input type="number" id = 'sides'readonly>
+    
+            </div>
+
+            <div class = 'cost-container-row'>
+                <label for="deserts">DESERTS</label>
+                <input type="number" id = 'deserts'readonly>
+    
+            </div>
+            <div class='cost-container-row'>
+                <label for="beverages">DRINKS</label>
+                <input type="number" id = 'beverages'readonly>
+            </div>
+
+            <div class='cost-container-row' id = 'totalCost-container'>
+                <label for="total">TOTAL</label>
+                <input type="number" id = 'total'readonly>
+            </div>
+
+            <div class='cost-container-row' id = 'totalCost-container'>
+                <button onclick = "createReservation()" id = 'payButton'>PAY</button>
+            </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+    <script src="JS/reserve.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>
